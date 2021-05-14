@@ -67,6 +67,7 @@ cc_library(
         "//gnulib",
         "//gnulib:config_h",
     ],
+    copts = ["-Wno-implicit-const-int-float-conversion"],
 )
 """
 
